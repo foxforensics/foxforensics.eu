@@ -1,0 +1,163 @@
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #0f88cd;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0a6ba8;
+    transform: translateY(-1px);
+}
+
+.btn-outline {
+    border: 2px solid #333333;
+    color: #333333;
+    transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+    border-color: #0f88cd;
+    color: #0f88cd;
+}
+
+/* Navigation Link Styles */
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #0f88cd;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Section Divider */
+.section-divider {
+    background: #e5e5e5;
+    height: 1px;
+}
+
+/* Project Card Styles (Muted) */
+.project-card-muted {
+    border: 1px solid #f0f0f0;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+}
+
+.project-card-muted:hover {
+    border-color: #d0d0d0;
+}
+
+/* Toggle Section Styles */
+.toggle-section {
+    border: 1px solid #e5e5e5;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.toggle-header {
+    background-color: #fafafa;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease;
+}
+
+.toggle-header:hover {
+    background-color: #f0f0f0;
+}
+
+.toggle-header.active {
+    background-color: #0f88cd;
+    color: #ffffff;
+}
+
+.toggle-header.active .toggle-icon {
+    color: #ffffff;
+}
+
+.toggle-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.toggle-content.open {
+    max-height: 2000px;
+    transition: max-height 0.5s ease-in;
+}
+
+.toggle-icon {
+    transition: transform 0.3s ease;
+    color: #0f88cd;
+}
+
+.toggle-header.active .toggle-icon {
+    transform: rotate(180deg);
+}
+
+/* File Type Tag Styles */
+.file-type-tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    margin: 0.25rem;
+    background-color: #f0f0f0;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    color: #333333;
+}
+
+/* Hash Category Styles */
+.hash-category {
+    margin-bottom: 1rem;
+}
+
+.hash-category-title {
+    font-weight: 600;
+    color: #0f88cd;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Custom Color Classes */
+.text-fox-black {
+    color: #333333;
+}
+
+.text-fox-blue {
+    color: #0f88cd;
+}
+
+.bg-fox-black {
+    background-color: #333333;
+}
+
+.bg-fox-blue {
+    background-color: #0f88cd;
+}
