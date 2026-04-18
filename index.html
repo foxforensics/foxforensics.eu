@@ -78,7 +78,7 @@
 <section class="relative min-h-screen flex items-center justify-center pt-16 bg-white">
   <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <div class="mb-8 flex justify-center">
-      <img src="https://avatars.githubusercontent.com/f0x4n6" alt="Fox Forensics" class="w-24 h-24 md:w-32 md:h-32 rounded-2xl object-cover">
+      <img src="img/fox.svg" alt="Fox Forensics" class="w-24 h-24 md:w-32 md:h-32 rounded-2xl object-cover">
     </div>
 
     <h1 class="text-5xl md:text-6xl lg:text-7xl font-display mb-6 tracking-tight text-fox-black uppercase">
@@ -86,7 +86,7 @@
     </h1>
 
     <p class="max-w-2xl mx-auto text-xl text-gray-600 mb-10 leading-relaxed">
-      Dedicated to advancing digital forensics through open-source tooling
+      Dedicated to advancing digital forensics through open-source tooling.
       <br/>
       For non-destructive analysis and reproducible results.
     </p>
@@ -98,7 +98,7 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
         </svg>
       </a>
-      <a href="https://github.com/f0x4n6/fox" target="_blank" class="btn-outline px-8 py-4 font-display text-lg rounded-lg flex items-center gap-2 uppercase tracking-wide bg-white">
+      <a href="https://foxforensics.dev/fox" target="_blank" class="btn-outline px-8 py-4 font-display text-lg rounded-lg flex items-center gap-2 uppercase tracking-wide bg-white">
         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
         </svg>
@@ -135,13 +135,13 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
       <div>
         <h2 class="text-4xl md:text-5xl font-display mb-2 text-fox-black uppercase">
-          Fox
+          <a href="https://foxforensics.dev/fox" target="_blank">Fox</a>
         </h2>
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-fox-blue text-white text-xs font-display uppercase tracking-wider mb-6">
           Forensic Examiner
         </div>
         <p class="text-lg text-justify text-gray-600 mb-6 leading-relaxed">
-          Fox is a CLI tool, build to support the examination process of file based forensic artifacts, by providing the most useful features in a cross-platform standalone binary. As with any Swiss Army knife, there are many specific power tools that offer more in-depth functionality, but sometimes all you need is a simple screwdriver.
+          Fox is a powerful CLI tool, build to support the examination process of file based forensic artifacts, by providing the most useful features in a cross-platform standalone binary. As with any Swiss Army knife, there are many specific power tools that offer more in-depth functionality, but sometimes all you need is a simple screwdriver.
         </p>
 
         <div class="space-y-4 mb-8">
@@ -167,19 +167,19 @@
             <svg class="w-5 h-5 text-fox-blue mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
             </svg>
-            <span class="text-gray-700">Dump NTLM hashes from Active Directory</span>
+            <span class="text-gray-700">Dump Active Directory password hashes</span>
           </div>
           <div class="flex items-start gap-3">
             <svg class="w-5 h-5 text-fox-blue mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
             </svg>
-            <span class="text-gray-700">Hunt 51600+ event ids using Sigma rules</span>
+            <span class="text-gray-700">Hunt over 51600+ different system events</span>
           </div>
           <div class="flex items-start gap-3">
             <svg class="w-5 h-5 text-fox-blue mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
             </svg>
-            <span class="text-gray-700">Stream timeline to Elastic and Splunk servers</span>
+            <span class="text-gray-700">Stream events to Elastic and Splunk servers</span>
           </div>
         </div>
 
@@ -199,23 +199,27 @@
           <div class="toggle-content">
             <div class="p-4 bg-white border-t border-gray-200">
               <div class="mb-4">
-                <div class="hash-category-title">File Formats</div>
+                <div class="hash-category-title">Log Formats</div>
                 <div class="flex flex-wrap">
-                  <span class="file-type-tag">EVTx</span>
+                  <span class="file-type-tag">EVTX</span>
                   <span class="file-type-tag">Journal</span>
-                  <span class="file-type-tag">JSON</span>
-                  <span class="file-type-tag">JSONL</span>
+                  <span class="file-type-tag">Fortigate</span>
+                </div>
+              </div>
+              <div class="mb-4">
+                <div class="hash-category-title">Binary Formats</div>
+                <div class="flex flex-wrap">
+                  <span class="file-type-tag">PE / COFF</span>
+                  <span class="file-type-tag">ELF</span>
+                  <span class="file-type-tag">ESE / EDB</span>
                   <span class="file-type-tag">LNK</span>
                   <span class="file-type-tag">PF</span>
-                  <span class="file-type-tag">ELF</span>
-                  <span class="file-type-tag">ESE/EDB</span>
-                  <span class="file-type-tag">PE/COFF</span>
                 </div>
               </div>
               <div class="mb-4">
                 <div class="hash-category-title">Archive Formats</div>
                 <div class="flex flex-wrap">
-                  <span class="file-type-tag">7zip</span>
+                  <span class="file-type-tag">7-Zip</span>
                   <span class="file-type-tag">AR</span>
                   <span class="file-type-tag">CAB</span>
                   <span class="file-type-tag">CFB</span>
@@ -250,8 +254,8 @@
                   <span class="file-type-tag">S2</span>
                   <span class="file-type-tag">Snappy</span>
                   <span class="file-type-tag">XZ</span>
-                  <span class="file-type-tag">Zlib</span>
-                  <span class="file-type-tag">Zstd</span>
+                  <span class="file-type-tag">zlib</span>
+                  <span class="file-type-tag">zstd</span>
                 </div>
               </div>
             </div>
@@ -349,11 +353,16 @@
                 </div>
               </div>
               <div class="hash-category">
-                <div class="hash-category-title">Windows & Checksums</div>
+                <div class="hash-category-title">Windows Algorithms</div>
                 <div class="flex flex-wrap">
                   <span class="file-type-tag">LM</span>
                   <span class="file-type-tag">NT</span>
                   <span class="file-type-tag">PE Checksum</span>
+                </div>
+              </div>
+              <div class="hash-category">
+                <div class="hash-category-title">Checksum Algorithms</div>
+                <div class="flex flex-wrap">
                   <span class="file-type-tag">Adler32</span>
                   <span class="file-type-tag">Fletcher4</span>
                   <span class="file-type-tag">CRC16-CCITT</span>
@@ -401,7 +410,7 @@
           </div>
         </div>
 
-        <a href="https://github.com/f0x4n6/fox/releases" target="_blank" class="mt-6 w-full btn-primary px-6 py-3 rounded-lg font-display uppercase tracking-wide text-center block">
+        <a href="https://foxforensics.dev/fox/releases" target="_blank" class="mt-6 w-full btn-primary px-6 py-3 rounded-lg font-display uppercase tracking-wide text-center block">
           Download Binaries
         </a>
       </div>
@@ -420,34 +429,34 @@
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://github.com/f0x4n6/hashdump', '_blank')">
+      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev/hashdump', '_blank')">
         <h3 class="font-display text-lg text-gray-700 mb-1 uppercase tracking-wide">hashdump</h3>
         <p class="text-gray-500 text-sm">Dump Active Directory password hashes</p>
       </div>
 
-      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://github.com/f0x4n6/eventid', '_blank')">
+      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev/eventid', '_blank')">
         <h3 class="font-display text-lg text-gray-700 mb-1 uppercase tracking-wide">eventid</h3>
         <p class="text-gray-500 text-sm">Lookup Windows event messages</p>
       </div>
 
-      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://github.com/f0x4n6/wth', '_blank')">
+      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev/wth', '_blank')">
         <h3 class="font-display text-lg text-gray-700 mb-1 uppercase tracking-wide">What the Hash</h3>
         <p class="text-gray-500 text-sm">Reverse lookup hash algorithms</p>
       </div>
 
-      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://github.com/f0x4n6/ustrings', '_blank')">
+      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev/ustrings', '_blank')">
         <h3 class="font-display text-lg text-gray-700 mb-1 uppercase tracking-wide">ustrings</h3>
         <p class="text-gray-500 text-sm">Carve Unicode and ASCII strings from files</p>
       </div>
 
-      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://github.com/f0x4n6/entropy', '_blank')">
+      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev/entropy', '_blank')">
         <h3 class="font-display text-lg text-gray-700 mb-1 uppercase tracking-wide">entropy</h3>
         <p class="text-gray-500 text-sm">Calculate entropy of files and paths</p>
       </div>
 
-      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://github.com/f0x4n6?q=go-', '_blank')">
+      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev?q=go-', '_blank')">
         <h3 class="font-display text-lg text-gray-700 mb-1 uppercase tracking-wide">Libraries</h3>
-        <p class="text-gray-500 text-sm">About compression, parsers and more...</p>
+        <p class="text-gray-500 text-sm">About artifacts, compression and more...</p>
       </div>
     </div>
   </div>
@@ -499,7 +508,7 @@
 
       <div class="flex justify-center">
         <div class="bg-gray-50 rounded-2xl p-8 border border-gray-200">
-          <img src="https://avatars.githubusercontent.com/f0x4n6" alt="Fox Forensics" class="w-24 h-24 rounded-xl object-cover mx-auto mb-6 shadow-md">
+          <img src="img/fox.svg" alt="Fox Forensics" class="w-24 h-24 rounded-xl object-cover mx-auto mb-6 shadow-md">
           <div class="grid grid-cols-2 gap-4 text-center">
             <div class="bg-white rounded-lg p-4 border border-gray-200">
               <div class="text-2xl font-display text-fox-black">100%</div>
@@ -521,7 +530,9 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="col-span-1 md:col-span-2">
       <div class="flex items-center space-x-3 mb-4">
-        <span class="font-display text-lg uppercase tracking-wide">foxforensics.eu</span>
+        <span class="font-display text-lg uppercase tracking-wide">
+          <a href="https://foxforensics.eu" target="_blank">foxforensics.eu</a>
+        </span>
       </div>
       <p class="text-gray-400 text-sm max-w-xs">
         Est. 2025, Veritas Liberabit Vos.
