@@ -3,32 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fox Forensics | Digital Forensics Tools & Research</title>
-  <meta name="description" content="Fox Forensics - Advanced digital forensics tools and research.">
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link href="css/fonts.css" rel="stylesheet">
-  <script src="js/tailwind.js"></script>
-  <script>
-    tailwind.config = {
-        theme: {
-            extend: {
-                fontFamily: {
-                    sans: ['Roboto', 'sans-serif'],
-                    display: ['Roboto Condensed', 'sans-serif'],
-                },
-                colors: {
-                    fox: {
-                        white: '#ffffff',
-                        black: '#333333',
-                        blue: '#0f88cd',
-                        'blue-dark': '#0a6ba8',
-                    }
-                }
-            }
-        }
-    }
-  </script>
+  <title>Fox Forensics | Est. 2025</title>
+  <meta name="description" content="Fox Forensics - Dedicated to advancing digital forensics through open-source tooling.">
+  <link rel="shortcut icon" href="img/fox.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/style.js"></script>
 </head>
 <body class="antialiased bg-white">
 
@@ -43,9 +22,9 @@
       </div>
 
       <div class="hidden md:flex items-center space-x-8">
-        <a href="#fox" class="nav-link text-gray-600 hover:text-fox-black transition-colors text-sm font-medium uppercase tracking-wide">Fox</a>
-        <a href="#tools" class="nav-link text-gray-600 hover:text-fox-black transition-colors text-sm font-medium uppercase tracking-wide">Tools</a>
-        <a href="#about" class="nav-link text-gray-600 hover:text-fox-black transition-colors text-sm font-medium uppercase tracking-wide">About</a>
+        <a href="#fox" class="nav-link text-gray-600 hover:text-fox-black transition-colors text-sm font-bold uppercase tracking-wide">Fox</a>
+        <a href="#tools" class="nav-link text-gray-600 hover:text-fox-black transition-colors text-sm font-bold uppercase tracking-wide">Tools</a>
+        <a href="#about" class="nav-link text-gray-600 hover:text-fox-black transition-colors text-sm font-bold uppercase tracking-wide">About</a>
         <a href="https://github.com/f0x4n6" target="_blank" class="px-4 py-2 bg-fox-black text-white hover:bg-fox-blue transition-colors text-sm font-medium rounded-lg flex items-center gap-2 uppercase tracking-wide">
           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
             <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
@@ -72,7 +51,7 @@
   </div>
 </nav>
 
-<!-- Hero Section -->
+<!-- Main Section -->
 <section class="relative min-h-screen flex items-center justify-center pt-16 bg-white">
   <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <div class="mb-8 flex justify-center">
@@ -84,14 +63,12 @@
     </h1>
 
     <p class="max-w-2xl mx-auto text-xl text-gray-600 mb-10 leading-relaxed">
-      Dedicated to advancing digital forensics through open-source tooling.
-      <br/>
-      For non-destructive analysis and reproducible results.
+      Dedicated to advancing digital forensics through open-source tooling. Reliable utilities for forensic examiners and incident responders.
     </p>
 
     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
       <a href="#fox" class="btn-primary px-8 py-4 font-display text-lg rounded-lg flex items-center gap-2 uppercase tracking-wide">
-        Get Started
+        Get Fox
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
         </svg>
@@ -100,7 +77,7 @@
         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
         </svg>
-        View on GitHub
+        GitHub
       </a>
     </div>
 
@@ -110,8 +87,8 @@
         <div class="text-sm text-gray-500 mt-1 uppercase tracking-wide">Repositories</div>
       </div>
       <div class="text-center">
-        <div class="text-3xl font-display text-fox-black uppercase">Go</div>
-        <div class="text-sm text-gray-500 mt-1 uppercase tracking-wide">Native Code</div>
+        <div class="text-3xl font-display text-fox-black uppercase">100%</div>
+        <div class="text-sm text-gray-500 mt-1 uppercase tracking-wide">Open Source</div>
       </div>
       <div class="text-center">
         <div class="text-3xl font-display text-fox-black uppercase">GPL</div>
@@ -132,14 +109,16 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
       <div>
-        <h2 class="text-4xl md:text-5xl font-display mb-2 text-fox-black uppercase">
+        <h2 class="text-4xl md:text-5xl font-display mb-4 text-fox-black uppercase">
           <a href="https://foxforensics.dev/fox" target="_blank">Fox</a>
         </h2>
+
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-fox-blue text-white text-xs font-display uppercase tracking-wider mb-6">
-          Forensic Examiner
+          <a href="https://foxforensics.dev/fox" target="_blank">Source Code</a>
         </div>
+
         <p class="text-lg text-justify text-gray-600 mb-6 leading-relaxed">
-          Fox is a powerful commandline tool, built to streamline the examination process of file-based forensic artifacts. It provides a wide spectrum of essential capabilities in a portable standalone binary. As a professional digital forensics tool, it naturally respects evidence integrity and preserves the Chain of Custody.
+          Fox is a versatile commandline tool, built to support the examination process of file-based forensic evidence. It provides a wide spectrum of forensic capabilities in a cross-platform standalone binary.
         </p>
         <div class="space-y-4 mb-8">
           <div class="flex items-start gap-3">
@@ -147,6 +126,12 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
             </svg>
             <span class="text-gray-700">Restricted read-only access</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-fox-blue mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+            </svg>
+            <span class="text-gray-700">Chain of Custody receipt generation</span>
           </div>
           <div class="flex items-start gap-3">
             <svg class="w-5 h-5 text-fox-blue mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -196,63 +181,63 @@
           <div class="toggle-content">
             <div class="p-4 bg-white border-t border-gray-200">
               <div class="mb-4">
-                <div class="hash-category-title">Log Formats</div>
+                <div class="support-category-title">Log Formats</div>
                 <div class="flex flex-wrap">
-                  <span class="file-type-tag">EVTX</span>
-                  <span class="file-type-tag">Journal</span>
-                  <span class="file-type-tag">Fortigate</span>
+                  <span class="support-type-tag">EVTX</span>
+                  <span class="support-type-tag">Journal</span>
+                  <span class="support-type-tag">Fortigate</span>
                 </div>
               </div>
               <div class="mb-4">
-                <div class="hash-category-title">Binary Formats</div>
+                <div class="support-category-title">Binary Formats</div>
                 <div class="flex flex-wrap">
-                  <span class="file-type-tag">PE / COFF</span>
-                  <span class="file-type-tag">ELF</span>
-                  <span class="file-type-tag">ESE / EDB</span>
-                  <span class="file-type-tag">LNK</span>
-                  <span class="file-type-tag">PF</span>
+                  <span class="support-type-tag">PE / COFF</span>
+                  <span class="support-type-tag">ELF</span>
+                  <span class="support-type-tag">ESE / EDB</span>
+                  <span class="support-type-tag">LNK</span>
+                  <span class="support-type-tag">PF</span>
                 </div>
               </div>
               <div class="mb-4">
-                <div class="hash-category-title">Archive Formats</div>
+                <div class="support-category-title">Archive Formats</div>
                 <div class="flex flex-wrap">
-                  <span class="file-type-tag">7-Zip</span>
-                  <span class="file-type-tag">AR</span>
-                  <span class="file-type-tag">CAB</span>
-                  <span class="file-type-tag">CFB</span>
-                  <span class="file-type-tag">CPIO</span>
-                  <span class="file-type-tag">ISO</span>
-                  <span class="file-type-tag">MSI</span>
-                  <span class="file-type-tag">RAR</span>
-                  <span class="file-type-tag">RPM</span>
-                  <span class="file-type-tag">TAR</span>
-                  <span class="file-type-tag">XAR</span>
-                  <span class="file-type-tag">ZIP</span>
+                  <span class="support-type-tag">7-Zip</span>
+                  <span class="support-type-tag">AR</span>
+                  <span class="support-type-tag">CAB</span>
+                  <span class="support-type-tag">CFB</span>
+                  <span class="support-type-tag">CPIO</span>
+                  <span class="support-type-tag">ISO</span>
+                  <span class="support-type-tag">MSI</span>
+                  <span class="support-type-tag">RAR</span>
+                  <span class="support-type-tag">RPM</span>
+                  <span class="support-type-tag">TAR</span>
+                  <span class="support-type-tag">XAR</span>
+                  <span class="support-type-tag">ZIP</span>
                 </div>
               </div>
               <div>
-                <div class="hash-category-title">Compression Formats</div>
+                <div class="support-category-title">Compression Formats</div>
                 <div class="flex flex-wrap">
-                  <span class="file-type-tag">BGZF</span>
-                  <span class="file-type-tag">Brotli</span>
-                  <span class="file-type-tag">Bzip2</span>
-                  <span class="file-type-tag">Gzip</span>
-                  <span class="file-type-tag">Kanzi</span>
-                  <span class="file-type-tag">LZ4</span>
-                  <span class="file-type-tag">Lzip</span>
-                  <span class="file-type-tag">LZMA</span>
-                  <span class="file-type-tag">LZFSE</span>
-                  <span class="file-type-tag">LZNT1</span>
-                  <span class="file-type-tag">LZO</span>
-                  <span class="file-type-tag">LZVN</span>
-                  <span class="file-type-tag">LZW</span>
-                  <span class="file-type-tag">LZX</span>
-                  <span class="file-type-tag">MinLZ</span>
-                  <span class="file-type-tag">S2</span>
-                  <span class="file-type-tag">Snappy</span>
-                  <span class="file-type-tag">XZ</span>
-                  <span class="file-type-tag">zlib</span>
-                  <span class="file-type-tag">zstd</span>
+                  <span class="support-type-tag">BGZF</span>
+                  <span class="support-type-tag">Brotli</span>
+                  <span class="support-type-tag">Bzip2</span>
+                  <span class="support-type-tag">Gzip</span>
+                  <span class="support-type-tag">Kanzi</span>
+                  <span class="support-type-tag">LZ4</span>
+                  <span class="support-type-tag">Lzip</span>
+                  <span class="support-type-tag">LZMA</span>
+                  <span class="support-type-tag">LZFSE</span>
+                  <span class="support-type-tag">LZNT1</span>
+                  <span class="support-type-tag">LZO</span>
+                  <span class="support-type-tag">LZVN</span>
+                  <span class="support-type-tag">LZW</span>
+                  <span class="support-type-tag">LZX</span>
+                  <span class="support-type-tag">MinLZ</span>
+                  <span class="support-type-tag">S2</span>
+                  <span class="support-type-tag">Snappy</span>
+                  <span class="support-type-tag">XZ</span>
+                  <span class="support-type-tag">zlib</span>
+                  <span class="support-type-tag">zstd</span>
                 </div>
               </div>
             </div>
@@ -274,99 +259,99 @@
           </div>
           <div class="toggle-content">
             <div class="p-4 bg-white border-t border-gray-200">
-              <div class="hash-category">
-                <div class="hash-category-title">Cryptographic Hashes</div>
+              <div class="support-category">
+                <div class="support-category-title">Cryptographic Hashes</div>
                 <div class="flex flex-wrap">
-                  <span class="file-type-tag">BLAKE2S-256</span>
-                  <span class="file-type-tag">BLAKE2B-256</span>
-                  <span class="file-type-tag">BLAKE2B-384</span>
-                  <span class="file-type-tag">BLAKE2B-512</span>
-                  <span class="file-type-tag">BLAKE3-256</span>
-                  <span class="file-type-tag">BLAKE3-512</span>
-                  <span class="file-type-tag">GOST2012-256</span>
-                  <span class="file-type-tag">GOST2012-512</span>
-                  <span class="file-type-tag">HAS-160</span>
-                  <span class="file-type-tag">LSH-256</span>
-                  <span class="file-type-tag">LSH-512</span>
-                  <span class="file-type-tag">MD2</span>
-                  <span class="file-type-tag">MD4</span>
-                  <span class="file-type-tag">MD5</span>
-                  <span class="file-type-tag">MD6</span>
-                  <span class="file-type-tag">RIPEMD-160</span>
-                  <span class="file-type-tag">SHAKE128</span>
-                  <span class="file-type-tag">SHAKE256</span>
-                  <span class="file-type-tag">SHA1</span>
-                  <span class="file-type-tag">SHA224</span>
-                  <span class="file-type-tag">SHA256</span>
-                  <span class="file-type-tag">SHA512</span>
-                  <span class="file-type-tag">SHA3</span>
-                  <span class="file-type-tag">SHA3-224</span>
-                  <span class="file-type-tag">SHA3-256</span>
-                  <span class="file-type-tag">SHA3-384</span>
-                  <span class="file-type-tag">SHA3-512</span>
-                  <span class="file-type-tag">Skein-224</span>
-                  <span class="file-type-tag">Skein-256</span>
-                  <span class="file-type-tag">Skein-384</span>
-                  <span class="file-type-tag">Skein-512</span>
-                  <span class="file-type-tag">SM3</span>
-                  <span class="file-type-tag">Whirlpool</span>
+                  <span class="support-type-tag">BLAKE2S-256</span>
+                  <span class="support-type-tag">BLAKE2B-256</span>
+                  <span class="support-type-tag">BLAKE2B-384</span>
+                  <span class="support-type-tag">BLAKE2B-512</span>
+                  <span class="support-type-tag">BLAKE3-256</span>
+                  <span class="support-type-tag">BLAKE3-512</span>
+                  <span class="support-type-tag">GOST2012-256</span>
+                  <span class="support-type-tag">GOST2012-512</span>
+                  <span class="support-type-tag">HAS-160</span>
+                  <span class="support-type-tag">LSH-256</span>
+                  <span class="support-type-tag">LSH-512</span>
+                  <span class="support-type-tag">MD2</span>
+                  <span class="support-type-tag">MD4</span>
+                  <span class="support-type-tag">MD5</span>
+                  <span class="support-type-tag">MD6</span>
+                  <span class="support-type-tag">RIPEMD-160</span>
+                  <span class="support-type-tag">SHAKE128</span>
+                  <span class="support-type-tag">SHAKE256</span>
+                  <span class="support-type-tag">SHA1</span>
+                  <span class="support-type-tag">SHA224</span>
+                  <span class="support-type-tag">SHA256</span>
+                  <span class="support-type-tag">SHA512</span>
+                  <span class="support-type-tag">SHA3</span>
+                  <span class="support-type-tag">SHA3-224</span>
+                  <span class="support-type-tag">SHA3-256</span>
+                  <span class="support-type-tag">SHA3-384</span>
+                  <span class="support-type-tag">SHA3-512</span>
+                  <span class="support-type-tag">Skein-224</span>
+                  <span class="support-type-tag">Skein-256</span>
+                  <span class="support-type-tag">Skein-384</span>
+                  <span class="support-type-tag">Skein-512</span>
+                  <span class="support-type-tag">SM3</span>
+                  <span class="support-type-tag">Whirlpool</span>
                 </div>
               </div>
-              <div class="hash-category">
-                <div class="hash-category-title">Performance Hashes</div>
+              <div class="support-category">
+                <div class="support-category-title">Performance Hashes</div>
                 <div class="flex flex-wrap">
-                  <span class="file-type-tag">FNV-1</span>
-                  <span class="file-type-tag">FNV-1a</span>
-                  <span class="file-type-tag">Murmur3</span>
-                  <span class="file-type-tag">RapidHash</span>
-                  <span class="file-type-tag">SipHash</span>
-                  <span class="file-type-tag">XXH32</span>
-                  <span class="file-type-tag">XXH64</span>
-                  <span class="file-type-tag">XXH3</span>
+                  <span class="support-type-tag">FNV-1</span>
+                  <span class="support-type-tag">FNV-1a</span>
+                  <span class="support-type-tag">Murmur3</span>
+                  <span class="support-type-tag">RapidHash</span>
+                  <span class="support-type-tag">SipHash</span>
+                  <span class="support-type-tag">XXH32</span>
+                  <span class="support-type-tag">XXH64</span>
+                  <span class="support-type-tag">XXH3</span>
                 </div>
               </div>
-              <div class="hash-category">
-                <div class="hash-category-title">Perceptual Hashes</div>
+              <div class="support-category">
+                <div class="support-category-title">Perceptual Hashes</div>
                 <div class="flex flex-wrap">
-                  <span class="file-type-tag">Average</span>
-                  <span class="file-type-tag">Difference</span>
-                  <span class="file-type-tag">Median</span>
-                  <span class="file-type-tag">PHash</span>
-                  <span class="file-type-tag">WHash</span>
-                  <span class="file-type-tag">MarrHildreth</span>
-                  <span class="file-type-tag">BlockMean</span>
-                  <span class="file-type-tag">PDQ</span>
-                  <span class="file-type-tag">RASH</span>
+                  <span class="support-type-tag">Average</span>
+                  <span class="support-type-tag">Difference</span>
+                  <span class="support-type-tag">Median</span>
+                  <span class="support-type-tag">PHash</span>
+                  <span class="support-type-tag">WHash</span>
+                  <span class="support-type-tag">MarrHildreth</span>
+                  <span class="support-type-tag">BlockMean</span>
+                  <span class="support-type-tag">PDQ</span>
+                  <span class="support-type-tag">RASH</span>
                 </div>
               </div>
-              <div class="hash-category">
-                <div class="hash-category-title">Similarity Hashes</div>
+              <div class="support-category">
+                <div class="support-category-title">Similarity Hashes</div>
                 <div class="flex flex-wrap">
-                  <span class="file-type-tag">ImpFuzzy</span>
-                  <span class="file-type-tag">ImpHash</span>
-                  <span class="file-type-tag">ImpHash0</span>
-                  <span class="file-type-tag">SSDeep</span>
-                  <span class="file-type-tag">TLSH</span>
+                  <span class="support-type-tag">ImpFuzzy</span>
+                  <span class="support-type-tag">ImpHash</span>
+                  <span class="support-type-tag">ImpHash0</span>
+                  <span class="support-type-tag">SSDeep</span>
+                  <span class="support-type-tag">TLSH</span>
                 </div>
               </div>
-              <div class="hash-category">
-                <div class="hash-category-title">Windows Algorithms</div>
+              <div class="support-category">
+                <div class="support-category-title">Windows Algorithms</div>
                 <div class="flex flex-wrap">
-                  <span class="file-type-tag">LM</span>
-                  <span class="file-type-tag">NT</span>
-                  <span class="file-type-tag">PE Checksum</span>
+                  <span class="support-type-tag">PE</span>
+                  <span class="support-type-tag">LM</span>
+                  <span class="support-type-tag">NT</span>
                 </div>
               </div>
-              <div class="hash-category">
-                <div class="hash-category-title">Checksum Algorithms</div>
+              <div class="support-category">
+                <div class="support-category-title">Checksum Algorithms</div>
                 <div class="flex flex-wrap">
-                  <span class="file-type-tag">Adler32</span>
-                  <span class="file-type-tag">Fletcher4</span>
-                  <span class="file-type-tag">CRC16-CCITT</span>
-                  <span class="file-type-tag">CRC32-C</span>
-                  <span class="file-type-tag">CRC32-IEEE</span>
-                  <span class="file-type-tag">CRC64-ECMA</span>
-                  <span class="file-type-tag">CRC64-ISO</span>
+                  <span class="support-type-tag">Adler32</span>
+                  <span class="support-type-tag">Fletcher4</span>
+                  <span class="support-type-tag">CRC16-CCITT</span>
+                  <span class="support-type-tag">CRC32-C</span>
+                  <span class="support-type-tag">CRC32-IEEE</span>
+                  <span class="support-type-tag">CRC64-ECMA</span>
+                  <span class="support-type-tag">CRC64-ISO</span>
                 </div>
               </div>
             </div>
@@ -428,32 +413,32 @@
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev/hashdump', '_blank')">
+      <div class="tool-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev/hashdump', '_blank')">
         <h3 class="font-display text-lg text-gray-700 mb-1 uppercase tracking-wide">hashdump</h3>
-        <p class="text-gray-500 text-sm">Dump Active Directory password hashes</p>
+        <p class="text-gray-500 text-sm">Dump Active Directory password hashes.</p>
       </div>
 
-      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev/eventid', '_blank')">
+      <div class="tool-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev/eventid', '_blank')">
         <h3 class="font-display text-lg text-gray-700 mb-1 uppercase tracking-wide">eventid</h3>
-        <p class="text-gray-500 text-sm">Lookup Windows event messages</p>
+        <p class="text-gray-500 text-sm">Lookup Windows event messages.</p>
       </div>
 
-      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev/wth', '_blank')">
+      <div class="tool-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev/wth', '_blank')">
         <h3 class="font-display text-lg text-gray-700 mb-1 uppercase tracking-wide">What the Hash</h3>
-        <p class="text-gray-500 text-sm">Reverse lookup hash algorithms</p>
+        <p class="text-gray-500 text-sm">Reverse lookup hash algorithms.</p>
       </div>
 
-      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev/ustrings', '_blank')">
+      <div class="tool-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev/ustrings', '_blank')">
         <h3 class="font-display text-lg text-gray-700 mb-1 uppercase tracking-wide">ustrings</h3>
-        <p class="text-gray-500 text-sm">Carve Unicode and ASCII strings from files</p>
+        <p class="text-gray-500 text-sm">Carve Unicode and ASCII strings from files.</p>
       </div>
 
-      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev/entropy', '_blank')">
+      <div class="tool-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev/entropy', '_blank')">
         <h3 class="font-display text-lg text-gray-700 mb-1 uppercase tracking-wide">entropy</h3>
-        <p class="text-gray-500 text-sm">Calculate entropy of files and paths</p>
+        <p class="text-gray-500 text-sm">Calculate entropy of files and paths.</p>
       </div>
 
-      <div class="project-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev?q=go-', '_blank')">
+      <div class="tool-card-muted rounded-lg p-5 cursor-pointer" onclick="window.open('https://foxforensics.dev?q=go-', '_blank')">
         <h3 class="font-display text-lg text-gray-700 mb-1 uppercase tracking-wide">Libraries</h3>
         <p class="text-gray-500 text-sm">About artifacts, compression and more...</p>
       </div>
@@ -479,7 +464,7 @@
           </p>
           <p>
             Our tools are designed with forensic integrity in mind: non-destructive analysis,
-            Chain of Custody preservation, and reproducible results.
+            chain of custody preservation, and reproducible results.
           </p>
         </div>
 
@@ -530,7 +515,7 @@
     <div class="col-span-1 md:col-span-2">
       <div class="flex items-center space-x-3 mb-4">
         <span class="font-display text-lg uppercase tracking-wide">
-          🦊 <a href="https://foxforensics.eu" target="_blank">foxforensics.eu</a>
+          🦊&ensp;<a href="https://foxforensics.eu" target="_blank">foxforensics.eu</a>
         </span>
       </div>
       <p class="text-gray-400 text-sm max-w-xs">

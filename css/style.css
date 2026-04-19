@@ -5,7 +5,7 @@
   font-weight: 400;
   font-stretch: 100%;
   font-display: swap;
-  src: url(../fonts/roboto.woff2) format('woff2');
+  src: url(../fonts/font1.woff2) format('woff2');
 }
 
 @font-face {
@@ -13,7 +13,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(../fonts/robotoc.woff2) format('woff2');
+  src: url(../fonts/font2.woff2) format('woff2');
 }
 
 /* Base Styles */
@@ -37,7 +37,6 @@ h1, h2, h3, h4, h5, h6, .font-display {
 
 .btn-primary:hover {
   background-color: #0a6ba8;
-  transform: translateY(-1px);
 }
 
 .btn-outline {
@@ -51,7 +50,7 @@ h1, h2, h3, h4, h5, h6, .font-display {
   color: #0f88cd;
 }
 
-/* Navigation Link Styles */
+/* Navigation Styles */
 .nav-link {
   position: relative;
 }
@@ -77,18 +76,18 @@ h1, h2, h3, h4, h5, h6, .font-display {
   height: 1px;
 }
 
-/* Project Card Styles (Muted) */
-.project-card-muted {
+/* Tools Styles */
+.tool-card-muted {
   border: 1px solid #f0f0f0;
   background-color: #fafafa;
   transition: all 0.3s ease;
 }
 
-.project-card-muted:hover {
+.tool-card-muted:hover {
   border-color: #d0d0d0;
 }
 
-/* Toggle Section Styles */
+/* Toggle Styles */
 .toggle-section {
   border: 1px solid #e5e5e5;
   border-radius: 0.5rem;
@@ -138,8 +137,8 @@ h1, h2, h3, h4, h5, h6, .font-display {
   transform: rotate(180deg);
 }
 
-/* File Type Tag Styles */
-.file-type-tag {
+/* Support Styles */
+.support-type-tag {
   display: inline-block;
   padding: 0.25rem 0.75rem;
   margin: 0.25rem;
@@ -149,12 +148,11 @@ h1, h2, h3, h4, h5, h6, .font-display {
   color: #333333;
 }
 
-/* Hash Category Styles */
-.hash-category {
+.support-category {
   margin-bottom: 1rem;
 }
 
-.hash-category-title {
+.support-category-title {
   font-weight: 600;
   color: #0f88cd;
   margin-bottom: 0.5rem;
@@ -163,7 +161,7 @@ h1, h2, h3, h4, h5, h6, .font-display {
   letter-spacing: 0.05em;
 }
 
-/* Custom Color Classes */
+/* Fox Colors */
 .text-fox-black {
   color: #333333;
 }

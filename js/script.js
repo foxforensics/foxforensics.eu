@@ -10,12 +10,15 @@ mobileMenuBtn.addEventListener('click', () => {
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
+
         const target = document.querySelector(this.getAttribute('href'));
+
         if (target) {
             target.scrollIntoView({
                 behavior: 'smooth',
                 block: 'start'
             });
+
             mobileMenu.classList.add('hidden');
         }
     });
@@ -24,7 +27,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Toggle section functionality
 function toggleSection(header) {
     const content = header.nextElementSibling;
-    const isOpen = content.classList.contains('open');
 
     // Close all other sections
     document.querySelectorAll('.toggle-content.open').forEach(openContent => {
@@ -35,7 +37,7 @@ function toggleSection(header) {
     });
 
     // Toggle current section
-    if (isOpen) {
+    if (content.classList.contains('open')) {
         content.classList.remove('open');
         header.classList.remove('active');
     } else {
