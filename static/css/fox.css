@@ -19,10 +19,10 @@
 #main {
   background-color: white;
   background-image:
-      linear-gradient(to bottom, transparent, white),
-      linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),
-      url("../img/globe2.jpg");
-  background-size: cover;
+      linear-gradient(to bottom, transparent 65%, white),
+      url("../img/main.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Base Styles */
